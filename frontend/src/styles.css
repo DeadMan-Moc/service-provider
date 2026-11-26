@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f5f7fb; }
+.page-shell { background: #f5f7fb; }
+.brand-panel {
+  background:
+    radial-gradient(circle at 12% 15%, rgba(126, 147, 255, .36), transparent 34%),
+    radial-gradient(circle at 88% 80%, rgba(35, 166, 143, .25), transparent 32%),
+    linear-gradient(145deg, #25336c 0%, #3d50ad 53%, #3443a0 100%);
+  min-height: 100vh;
+}
